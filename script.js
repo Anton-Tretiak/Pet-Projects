@@ -98,7 +98,7 @@ async function getWeather() {
     current_day_icon.className = 'weather-icon owf';
     current_day_icon.classList.add(`owf-${data.weather[0].id}`);
 
-    const url_f = `https://api.openweathermap.org/data/2.5/forecast?q=${city_name}&appid=08f2a575dda978b9c539199e54df03b0&units=metric`;
+    const url_f = `https  ://api.openweathermap.org/data/2.5/forecast?q=${city_name}&appid=08f2a575dda978b9c539199e54df03b0&units=metric`;
     const res_f = await fetch(url_f);
     const data_f = await res_f.json();
   
