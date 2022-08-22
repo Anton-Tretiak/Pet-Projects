@@ -115,7 +115,7 @@ async function getWeather() {
     fourth_day_icon.classList.add(`owf-${data_f.list[25].weather[0].id}`);
   }
   catch {
-    location_name.textContent = 'Error! Enter correct city!';
+    location_name.textContent = 'Error! Enter the correct city!';
   }
 }
 
