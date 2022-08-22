@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learning</title>
+    <link rel="stylesheet" href="./owfont-regular.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="weather-side">
+      <div class="weather-gradient"></div>
+      <div class="date-container">
+        <h2 class="date-dayname">Tuesday</h2><span class="date-day">15 Jan 2019</span><span class="location">Kyiv</span>
+      </div>
+      <div class="weather-container"><i class="weather-icon" data-feather="sun"></i>
+        <h1 class="weather-temp">29°C</h1>
+        <h3 class="weather-desc">Sunny</h3>
+      </div>
+    </div>
+    <div class="info-side">
+      <div class="today-info-container">
+        <div class="today-info">
+          <div class="precipitation"> <span class="title">PRESSURE</span><span class="value precipitation-value">0 %</span>
+            <div class="clear"></div>
+          </div>
+          <div class="humidity"> <span class="title">HUMIDITY</span><span class="value humidity-value">34 %</span>
+            <div class="clear"></div>
+          </div>
+          <div class="wind"> <span class="title">WIND</span><span class="value wind-value">0 km/h</span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div class="week-container">
+        <ul class="week-list">
+          <li class="active"><i class="day-icon current-day_icon" data-feather="sun"></i><span class="day-name current-day">Tue</span><span class="day-temp current-day_temp">29°C</span></li>
+          <li><i class="day-icon second-day_icon" data-feather="cloud"></i><span class="day-name second-day">Wed</span><span class="day-temp second-day_temp">21°C</span></li>
+          <li><i class="day-icon third-day_icon" data-feather="cloud-snow"></i><span class="day-name third-day">Thu</span><span class="day-temp third-day_temp">08°C</span></li>
+          <li><i class="day-icon fourth-day_icon" data-feather="cloud-rain"></i><span class="day-name fourth-day">Fry</span><span class="day-temp fourth-day_temp">19°C</span></li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="location-container">
+        <button class="location-button"> <i data-feather="map-pin"></i><span>Change location</span></button>
+      </div>
+    </div>
+  </div>
+    <script src="./script.js"></script>
+</body>
+</html>
